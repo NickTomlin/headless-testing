@@ -1,0 +1,19 @@
+{
+  "name": "headless-firefox-example",
+  "version": "0.0.0",
+  "description": "An example integration using headless FF",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "~3.0.1",
+    "serve-static": "~1.3.1",
+    "bootstrap": "~3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "bundle exec rspec",
+    "start": "node server.js"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC"
+}
